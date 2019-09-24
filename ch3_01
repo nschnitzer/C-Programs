@@ -1,0 +1,32 @@
+#include<iostream>
+#include<string>
+#include<cmath>
+using namespace std;
+
+int main()
+{
+	const int SECRET = 11;
+	const double RATE = 12.50;
+	int num1, num2, newNum;
+	string name;
+	double hoursWorked, wages;
+	
+	cout << "Please enter two integers" << endl;
+	cin >> num1 >> num2;
+	cout << "The value of num1 is " << num1 << " and the value of num2 is " << num2 << endl;
+	
+	newNum = 2 * num1 + num2;
+	cout << "newNum: " << newNum;
+	
+	newNum = newNum + SECRET;
+	
+	cout << "newNum: " << newNum;
+	
+	cout << "Please enter last name" << endl;
+	cin >> name;
+	
+	cout << "Please enter hours worked (0 > x > 70)" << endl;
+	cin >> hoursWorked;
+	
+	wages = hoursWorked * RATE;
+}

@@ -1,0 +1,12 @@
+#include<IOStream>
+using namespace std;
+
+int main()
+{
+	int num;
+	num = 6;
+	count << "Mu first C++ program," << endl;
+	cout << "7+8 = " << 7+8 << endl;
+	cout << "num = " << num << endl;
+	return 0;
+}
